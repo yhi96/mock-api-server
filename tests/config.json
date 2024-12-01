@@ -1,0 +1,4 @@
+{
+    "use_https": true,
+    "https_cert": "tests/certs/ca_bundle.pem"
+}

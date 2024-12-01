@@ -13,12 +13,13 @@ def create_app():
     app = Flask(__name__)
     app.config['DEBUG'] = True
     app.config['TESTING'] = True
-    # app.config['SERVER_NAME'] = os.environ['MOCK_HOSTNAME']
+    #app.config['SERVER_NAME'] = os.environ['MOCK_HOSTNAME']
 
     app.register_blueprint(inventory_devices_bp)
     app.register_blueprint(inventory_files_bp)
 
     return app
 
-
 mock = create_app()
+
+

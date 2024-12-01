@@ -2,6 +2,7 @@
 Inventory files routes
 """
 import os
+from flask import Flask
 
 from flask import Blueprint, send_file, request
 
